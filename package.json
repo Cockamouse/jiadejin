@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {},
+  "author": "",
+  "license": "MIT",
+  "bugs": {},
+  "devDependencies": {
+    "bluebird": "^3.5.0"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.2",
+    "@types/jquery": "^3.2.12",
+    "@types/jsdom": "^11.0.2",
+    "@types/lodash": "^4.14.74",
+    "@types/node": "^8.0.30",
+    "@types/request-promise": "^4.1.37",
+    "cheerio": "^1.0.0-rc.2",
+    "del": "^3.0.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.2.0",
+    "lodash": "^4.17.4",
+    "request": "^2.82.0",
+    "request-promise": "^4.2.2",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  }
+}
