@@ -1,0 +1,12 @@
+version: '2'
+services:
+  jiadejin:
+    container_name: jiadejin
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/myapp/src
+      - ./out:/myapp/out
+      - ./jiadejin.sh:/myapp/jiadejin.sh
+    command: /bin/sh -c "tsc && sh ./jiadejin.sh"

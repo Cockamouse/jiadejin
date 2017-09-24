@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@types/cheerio": "^0.22.2",
+    "@types/iconv": "^2.1.16",
     "@types/jquery": "^3.2.12",
     "@types/jsdom": "^11.0.2",
     "@types/lodash": "^4.14.74",
@@ -21,6 +22,7 @@
     "cheerio": "^1.0.0-rc.2",
     "del": "^3.0.0",
     "fs": "0.0.1-security",
+    "iconv-lite": "^0.4.19",
     "jquery": "^3.2.1",
     "jsdom": "^11.2.0",
     "lodash": "^4.17.4",
